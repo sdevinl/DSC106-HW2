@@ -1,0 +1,169 @@
+
+
+h1, h3 {
+    font-family: "Paytone One", sans-serif;
+}
+
+summary, p, h2, h4, h5, h6, caption, td, th, tr, summary, ul, li, i, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+h2 span {
+    color: green;
+}
+
+h4{
+    margin-bottom: 2px;
+}
+
+.Value {
+    color: blue;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+table, th, td{
+    border: 1px solid black;
+  }
+
+table {
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+body header {
+    height: 1%;
+}
+
+body header img {
+    float: left;
+    width: 8%;
+}
+
+body header div {
+    float: left;
+    margin-top: 1%;
+    height: 50px;
+}
+
+body section {
+    overflow: auto;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid gray;;
+   
+}
+
+.Boxes {
+    float: left;
+    width: 30%;;
+    border: 5px;
+    align-self: center;
+    margin-top: 10px;
+    height: 80px;
+  
+}
+
+.Charts { 
+    float: left;
+    width: 30%;
+    align-self: center;
+    height: 100%;
+
+}
+
+.Charts img {
+    height: 100%;
+    width: 100%;
+}
+
+#iframe {
+    float: left;
+    text-align: center;
+    border: none;
+    width: 39%;
+    height: 350px;
+    max-height: fit-content;
+    position: relative;
+}
+
+#iframe iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.Boxes img {
+    height: 100%;
+    width: 100%;
+}
+
+.ID {
+    background-color: lightgray;
+    width: 1px;
+}
+
+#Colspan {
+    height: 50px;
+    width: 50px;
+}
+
+form {
+    border-top: 1px solid gray;
+
+}
+
+#OrderForm {
+    border: none;
+    width: 90%;
+    margin: auto;
+}
+
+.Quantity {
+    width: 10%;
+}
+
+.Placeholders { 
+    width: 20%;
+}
+
+.orderRow {
+    text-align: center;
+
+    border: 1px solid black;
+}
+
+fieldset {
+    border:none;
+}
+
+button#button-success, button#button-error{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+button#button-success {
+     background-color: rgb(28, 184, 65); /* this is a green */
+}
+
+button#button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+#table {
+    width: 80%;
+    margin: auto;
+}
+
+#Totals {
+    width: 90%;
+    margin: auto;
+}
